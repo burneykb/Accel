@@ -12,7 +12,7 @@ export function useStagedNotesUpdate() {
 }
 
 export function StagedNotesProvider({ children }) {
-    const [stagedNotes, setStagedNotes] = useState(["./img/Notation_library/Barlines/Barline.png"])
+    const [stagedNotes, setStagedNotes] = useState([])
 
     function updateStagedNotes(newNote) {
         console.log(newNote)

@@ -11,7 +11,7 @@ const Staging = () => {
         <div className="stagedNotes">
             {stagedNotes && stagedNotes.map(note =>
                 <div className="stagedNote" key={v4()}>
-                    <img src={note} alt=""></img>
+                    <img src={note} alt="" ></img>
                 </div>
             )}
         </div>
