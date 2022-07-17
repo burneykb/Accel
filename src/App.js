@@ -30,6 +30,14 @@ function App() {
         return false
     })
 
+    Mousetrap.bind('command+c', function(e) {
+        getImage()
+            document.getElementById("input-text").focus()
+        return false
+    })
+
+
+
     return (
         <>
             <StagedNotesProvider>
